@@ -79,7 +79,7 @@ progress[value]::-webkit-progress-value {position: relative;background-size: 35p
 progress[value]::-webkit-progress-value:after {content: '';position: absolute;width:5px; height:5px;top:7px; right:7px;background-color: white;border-radius: 100%;}
 .progress-bar {background-color: whiteSmoke;border-radius: 2px;box-shadow: 0 2px 3px rgba(0,0,0,.5) inset;width: 100%; height:20px;}
 .progress-bar span {background-color: royalblue;border-radius: 3px;display: block;text-indent: -9999px;}
-p[data-value] {margin-top: 6px; margin-bottom: 6px; position: relative;top: 12px;}
+p[data-value] {margin-top: 6px; margin-bottom: 9px; position: relative;top: 12px;}
 p[data-value]:after {content: attr(data-value) '%';position: absolute; right:0;}
 .progressbar::-webkit-progress-value {background-image:-webkit-linear-gradient( 0deg,transparent,transparent 1%,rgba(0,0,0,.1) 1%,rgba(0,0,0,.1) 1%,transparent 1%),-webkit-linear-gradient( top,rgba(255, 255, 255, .25),rgba(0,0,0,.2)),-webkit-linear-gradient( left, #fff, #55ffc5);}
 background-image:-webkit-linear-gradient( left, #fff, #55ffc5);}
